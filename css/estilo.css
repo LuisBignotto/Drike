@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-color: #FFF;
+}
+
+header {
+    background-color: #178DCF;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+    margin-left: 25px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+li {
+    background-color: #1187CA;
+    padding: 34px;
+    color: #FFF;
+    font-size: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+main {
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #178DCF;
+    height: 110px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 40px;
+    color: #FFF;
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        background-color: #1187CA;
+        height: auto;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav h1{
+        display: none;
+    }
+
+    nav ul {
+        margin: 0;
+    }
+
+    nav li {
+        margin: 0;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    main {
+        display: inline;
+    }
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 401px) {
+
+    body {
+        margin: 0;
+    }
+
+    nav{
+       margin-right: 0; 
+    }
+
+    nav li{
+        margin: 0;
+    }
+}

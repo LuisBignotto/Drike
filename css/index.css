@@ -1,0 +1,162 @@
+#primeira h2{
+    color: #178dcf;
+    font-size: 36px;
+}
+
+#avaliacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.avaliacoes {
+    background-color: #1187ca;
+    color: #fff;
+    width: 15%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.avaliacoes img {
+    height: 140px;
+    width: 140px;
+    border-radius: 100px;
+}
+
+#plano {
+    background-color: #1187ca;
+    margin: 20px 0px;
+    padding: 40px;
+    color: #fff;
+}
+
+#plano h2 {
+    font-size: 36px;
+}
+
+#parteplanos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px;
+    color: #000;
+}
+
+.planos {
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 5px 8px rgba(0, 0, 0, 0.2);
+    width: 10%;
+}
+
+.planos h3 {
+    font-size: 30px;
+}
+
+.planos a {
+    font-size: 20px;
+    color: #000;
+}
+
+.planos a:hover {
+    text-decoration: underline;
+}
+
+#maisvendido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mais {
+    background-color: #1187ca;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    width: 20%;
+}
+
+.mais img {
+    padding: 10px;
+}
+
+.mais a {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    nav li {
+        padding: 20px;
+    }
+
+    #off {
+        display: none;
+    }
+
+    #avaliacao {
+        flex-direction: column;
+    }
+
+    .avaliacoes {
+        width: 100%;
+        margin: 10px;
+    }
+
+    #parteplanos {
+        flex-direction: column;
+    }
+
+    .planos {
+        width: 100%;
+        margin: 5px;
+    }
+
+    #maisvendido {
+        flex-direction: column;
+    }
+
+    .mais {
+        width: 100%;
+        margin: 5px auto;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 401px) {
+
+    #off {
+        display: none;
+    }
+
+    .avaliacoes {
+        height: 250px;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .planos {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .mais {
+        width: 100%;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    #off img {
+        width: auto;
+    }    
+}

@@ -1,0 +1,79 @@
+h2 {
+    font-size: 36px;
+    color: #1187ca;
+    margin-bottom: 20px;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 160px;
+}
+
+.produto {
+    background-color: #1187ca;
+    color: #FFF;
+    font-size: 15px;
+    height: auto;
+    width: 300px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.produto img {
+    width: 70%;
+    height: 90%;
+    border-radius: 50px;
+}
+
+.produto h3 {
+    font-size: 20px;
+}
+
+.produto h4 {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.produto a {
+    font-size: 16px;
+}
+
+.produto:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.produto a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+#inicial {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    #produtos {
+        margin: 20px auto;
+    }
+
+    #inicial {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    #produtos {
+        margin: 20px 0;
+    }
+
+    .produto {
+        margin: 20px;
+    }
+}

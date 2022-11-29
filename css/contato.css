@@ -1,0 +1,110 @@
+h2 {
+    font-size: 36px;
+    color: #1187ca;
+    margin-bottom: 20px;
+}
+
+#contato {
+    background-color: #178DCF;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formacontato {
+    color: #fff;
+    margin: 20px;
+}
+
+.formacontato h3 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.formacontato h4 {
+    font-size: 20px;
+}
+
+.formacontato i {
+    font-size: 40px;
+}
+
+#contatar {
+    margin: 1% 35%;
+}
+
+#formulario {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+#formulario input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #EAEEF1;
+    border: 1px solid #EFF0F2;
+    padding: 10px;
+    margin: 5px;
+}
+
+#formulario #mensagem {
+    height: 150px;
+    text-align: start;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #EAEEF1;
+    border: 1px solid #EFF0F2;
+    padding: 10px;
+    margin: 5px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 150px;
+}
+
+#formulario a {
+    background-color: #1187ca;
+    font-size: 20px;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+#inicial {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    #contato {
+        flex-direction: column; 
+        margin: 5px;
+    }
+
+    .formacontato {
+        margin: 5px;
+    }
+
+    #contatar {
+        margin: auto;
+    }
+
+    #formulario input {
+        margin: 5px auto;
+    }
+
+    #formulario #mensagem {
+        margin: 5px auto;
+    }
+
+    
+    #inicial {
+        display: block;
+    }
+}
+
